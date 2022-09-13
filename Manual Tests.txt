@@ -1,0 +1,22 @@
+Scenario 1: Select Type of partner
+Given: We have 3 options
+When: Select I'm a Broker option
+And : Click on Get a demo button
+Then: Navigate to broker-iso-form
+
+Scenario 2: Select Type of partner
+Given: We have 3 options
+When:Select I'm an ISO option
+And : Click on Get a demo button
+Then: Navigate to broker-iso-form
+
+Scenario 3: Select Type of partner
+Given: We have 3 options
+When: Select I'm a Strategic Partner option
+And : Click on Get a demo button
+Then: Navigate to strategic-partner-form
+
+Scenario 4: Select Type of partner
+Given: We have 3 options
+When: Click on Get a demo button without selecting any option
+Then: Get Please select a type of partner message
